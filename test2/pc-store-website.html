@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCstore.com</title>
+    <link rel="stylesheet" href="pc-store-styles.css">
+    <script src="pc-store-script.js" defer></script>
+    <script src="pc-javas.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/pc-logo-monogram-with-slash-style-design-template-free-vector.jpg" alt="PC Icon">
+            <h1>PCstore.com</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#store">Store</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#cart" class="cart-icon" aria-label="Cart">🛒</a>
+            <a href="#account" class="account-icon" id="login-icon" aria-label="Account">👤</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to PC Store</h2>
+            <p>Your One-Stop Shop for Computer Accessories</p>
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <img src="/img/rsz_1366_2000.jpg" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/carusel2.jpg" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/carusel3.jpg" alt="Slide 3">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to PCstore.com, your one-stop shop for the latest and greatest in computer hardware and accessories. Our mission is to provide top-quality products and exceptional customer service to tech enthusiasts and professionals alike.</p>
+            <img src="/img/about.jpg" alt="About PCstore" class="about-img">
+        </section>
+        
+        <section id="store">
+            <h2>Our Products</h2>
+            <div class="product-carousel">
+                <button class="carousel-control prev" aria-label="Previous">&lt;</button>
+                <div class="carousel-track-container">
+                    <div class="product-carousel-track">
+                        <!-- Product items will be populated by JavaScript -->
+                    </div>
+                </div>
+                <button class="carousel-control next" aria-label="Next">&gt;</button>
+            </div>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Custom PC Builds</h3>
+                    <p>We offer custom PC building services tailored to your needs, from gaming rigs to professional workstations.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Repairs & Upgrades</h3>
+                    <p>Our experts can handle any PC repairs or upgrades to keep your system running at peak performance.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Technical Support</h3>
+                    <p>Get expert advice and technical support from our knowledgeable staff for all your PC-related questions.</p>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"This service has completely exceeded my expectations! The quality and attention to detail are unmatched."</p>
+                    <div class="testimonial-author">
+                        <img src="/img/people1.jpg" alt="Author 1" class="author-image">
+                        <div>
+                            <h4 class="author-name">Chris Redfield</h4>
+                            <p class="author-position">CEO, Company A</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"I have never experienced such amazing customer support. They truly care about their clients and go above and beyond."</p>
+                    <div class="testimonial-author">
+                        <img src="/img/people2.jpg" alt="Author 2" class="author-image">
+                        <div>
+                            <h4 class="author-name">Robert Hanningson</h4>
+                            <p class="author-position">Marketing Director, Company B</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Working with this team has been a game-changer for our business. The results speak for themselves."</p>
+                    <div class="testimonial-author">
+                        <img src="/img/people3.jpg" alt="Author 3" class="author-image">
+                        <div>
+                            <h4 class="author-name">Alan Johnson</h4>
+                            <p class="author-position">CTO, Company C</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="client-zone">
+            <h2>Client Zone</h2>
+            <form id="login-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Sign In or Create an Account</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us through any of the methods below.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Address</h3>
+                    <p>28 May,<br>203 Nizami St,<br>Baku, AZ 1111</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+9940122220222">+9940122220222</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:support@pcstore.com">support@pcstore.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Working Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+        </section>
+       
+
+        
+    </main>
+
+    <footer>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1277.9237893121197!2d49.85315822094267!3d40.37711299028673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d077c61fef3%3A0xfa4594c97092ca01!2zItCQ0KQiINCx0LjQt9C90LXRgS3RhtC10L3RgtGA!5e0!3m2!1sru!2saz!4v1725350428578!5m2!1sru!2saz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p>&copy; 2024 PCstore.com All rights reserved</p>
+        <p>Powered By Vusal Garayev</p>
+    </footer>
+     <!-- Shopping Cart Section -->
+<div id="cart" class="cart">
+    <button id="close-cart-btn" class="close-cart-btn">&times;</button>
+    <h2>Your Shopping Cart</h2>
+    <div class="cart-items">
+        <!-- Cart items will be dynamically added here -->
+    </div>
+    <div class="cart-summary">
+        <p>Total: <span id="cart-total">AZN 0</span></p>
+        <button id="checkout-btn" class="checkout-btn">Checkout</button>
+    </div>
+</div>
+
+<!-- Login Page -->
+<div id="login-page" class="login-page">
+    <div class="login-form-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="email" placeholder="Enter your email" required>
+            <input type="password" placeholder="Enter your password" required>
+            <button type="submit">Login</button>
+        </form>
+        <button id="close-login-btn" class="close-login-btn">&times;</button>
+    </div>
+</div>
+</body>
+</html>
